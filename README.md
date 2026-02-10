@@ -29,8 +29,8 @@ Le système utilise un **télémètre à ultrasons HC-SR04** monté sur un **ser
   - Génération d’un signal PWM  
   - Période : 20 ms  
   - Largeur d’impulsion :
-    - 0,5 ms → \(0^{\circ}\)
-    - 2,5 ms → \(180^{\circ}\)
+    - 0,5 ms → 0°
+    - 2,5 ms → 180°
 
 - **Interface Avalon**  
   - Chaque IP est encapsulée pour être pilotée par le processeur **Nios II**  
