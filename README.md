@@ -63,6 +63,7 @@ Le système utilise un **télémètre à ultrasons HC-SR04** monté sur un **ser
 
 ```text
 /
+├── DE10_Lite_Computer_YD/     # Projet de départ donné par l'encadrant
 ├── hw/     # Sources VHDL, top-level et projet Quartus
 ├── sw/     # Code source C pour Nios II (SBT)
 ├── simu/    # Bancs de test (Testbenchs) et scripts ModelSim
