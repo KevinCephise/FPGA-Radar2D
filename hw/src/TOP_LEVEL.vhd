@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity TOP_LEVEL is
+    port(
+        CLOCK_50, KEY0, GPIO3, read_n, chipselect : in std_logic;
+        GPIO1 : out std_logic;
+        DIST_CM : out std_logic_vector(9 downto 0);
+        readdata : out std_logic_vector(31 downto 0)
+    );
+end entity;
+
+architecture RTL of TOP_LEVEL is
+
+begin
+    tele : entity work.telemetre
+        port map(
+            clk => CLOCK_50,
+            rst_n => KEY0,
+            echo => GPIO3,
+            trig => GPIO1,
+            read_n => read_n,
+            chipselect => chipselect,
+            readdata => readdata,
+            dist_cm => DIST_CM
+        );
+		  
+
+end architecture;

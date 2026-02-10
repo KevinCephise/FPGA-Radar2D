@@ -1,0 +1,7 @@
+
+State Machine - |servomoteur|current_state
+Name current_state.WAIT_IMP current_state.IMPULSION current_state.MESURE current_state.READ 
+current_state.READ 0 0 0 0 
+current_state.MESURE 0 0 1 1 
+current_state.IMPULSION 0 1 0 1 
+current_state.WAIT_IMP 1 0 0 1 
