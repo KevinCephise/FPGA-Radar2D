@@ -97,9 +97,9 @@ Le système utilise un **télémètre à ultrasons HC-SR04** monté sur un **ser
 - Affichage sur **écran VGA**
 
 
-## 🧑‍💻 Auteur
+## 🧑‍💻 Auteurs
 
-**CEPHISE Kevin**  
+**CEPHISE Kevin** & **Sarra SOLTAN**
 Étudiant en Électronique / Systèmes Embarqués  
 
 Projet encadré par **Yann DOUZE**
